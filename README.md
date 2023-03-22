@@ -1,4 +1,5 @@
 # Real-Time-Accelerometer-Data-Plot
+
 Here is sample code of real time accelerometer data plot on android mobile using mpandroidchart library.
 
 This project is updated on 23th Jun 2020 (by jamilxt) and it is tested. Please watch video here https://www.youtube.com/watch?v=QEbljbZ4dNs
