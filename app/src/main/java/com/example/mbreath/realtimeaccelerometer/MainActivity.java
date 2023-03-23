@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
 
 //            data.addEntry(new Entry(set.getEntryCount(), (float) (Math.random() * 80) + 10f), 0);
-            data.addEntry(new Entry(set.getEntryCount(), event.values[0] + 5), 0);
+            data.addEntry(new Entry(set.getEntryCount(), (float) Math.sqrt(Math.pow(event.values[0],2)+Math.pow(event.values[1],2)+Math.pow(event.values[2],2))), 0);
             data.notifyDataChanged();
 
             // let the chart know it's data has changed
@@ -164,12 +164,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             public void run() {
                 while (true){
                     plotData = true;
-                    try {
-                        Thread.sleep(10);
-                    } catch (InterruptedException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    }
                 }
             }
         });
@@ -205,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     protected void onResume() {
         super.onResume();
-        mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_GAME);
+        mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
     }
 
     @Override

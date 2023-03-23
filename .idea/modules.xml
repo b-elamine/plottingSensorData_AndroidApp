@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Real-Time-Accelerometer-Data-Plot.iml" filepath="$PROJECT_DIR$/.idea/modules/Real-Time-Accelerometer-Data-Plot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Real-Time-Accelerometer-Data-Plot.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plottingSensorData_AndroidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/plottingSensorData_AndroidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/plottingSensorData_AndroidApp.app.unitTest.iml" />
     </modules>
   </component>
 </project>
